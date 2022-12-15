@@ -12,7 +12,7 @@ function Header() {
         />
         <div className="flex flex-col">
           <span className="text-[16px] font-bold group-hover:text-primary duration-300">
-            {user?.email}
+            {user?.email || "محمد الخالدي"}
           </span>
           <span className="text-[14px] text-[#a4a5a5]">مختص التمويل</span>
         </div>

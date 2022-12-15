@@ -40,7 +40,13 @@ function Dashboard() {
   }, []);
   return (
     <div>
-      <section className="bg-[url('dashboard/rectangle.webp')] bg-no-repeat">
+      <section
+        style={{
+          backgroundImage: "url('dashboard/rectangle.webp')",
+          backgroundRepeat: "no-repeat",
+        }}
+        //  className="bg-[url('dashboard/rectangle.webp')] bg-no-repeat"
+      >
         <Header />
 
         <Hero />
